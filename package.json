@@ -1,5 +1,5 @@
 {
-  "name": "async-lock",
+  "name": "@knnan/async-lock",
   "version": "1.0.0",
   "description": "A lightweight async mutex implementation with abort signal support",
   "main": "src/AsyncMutex.js",

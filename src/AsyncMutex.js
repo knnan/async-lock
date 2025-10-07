@@ -109,7 +109,6 @@ export class AsyncMutex {
 
         const release = () => {
             if (released) {
-                logger.warn("Mutex already released");
                 return;
             }
             released = true;
